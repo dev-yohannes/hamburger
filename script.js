@@ -1,7 +1,7 @@
-let container = document.querySelector(".container");
-let firstRow = document.querySelector("#first-row");
-let secondRow = document.querySelector("#second-row");
-let thirdRow = document.querySelector("#third-row");
+const container = document.querySelector(".container");
+const firstRow = document.querySelector("#first-row");
+const secondRow = document.querySelector("#second-row");
+const thirdRow = document.querySelector("#third-row");
 
 container.addEventListener("click", function () {
   firstRow.classList.toggle("new-first-row");
